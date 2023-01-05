@@ -15,6 +15,7 @@ const ThreadsWrapper = styled(Stack)({
   borderRadius: 4,
   backgroundColor: 'rgba(251, 251, 251, 0.4)',
   width: '-webkit-fill-available',
+  minHeight: '100vh',
 });
 
 const VerticalOrHorizontalStack = styled(Stack)(({ theme }) => ({

@@ -16,7 +16,7 @@ const ThreadDetailWrapper = styled(Stack)({
   borderRadius: 4,
   backgroundColor: 'rgba(251, 251, 251, 0.4)',
   width: '-webkit-fill-available',
-  // maxWidth: '1310px',
+  minHeight: '100vh',
 });
 
 const CreatedDateAndThreadVote = styled(Stack)({
