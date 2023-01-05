@@ -54,7 +54,7 @@ const ThreadFilterAction = () => (
 
 const ThreadListStackContainer = styled(Stack)({
   width: '100%',
-  minHeight: '1400px',
+  height: '-webkit-fill-available',
   overflow: 'hidden',
 });
 
