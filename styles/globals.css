@@ -23,15 +23,15 @@ div.next-container {
 
 @media screen and (min-width: 360px) {
   main.main-container {
-    min-height: 74vh;
+    min-height: 100vh;
   }
 }
 
-@media screen and (min-width: 1000px) {
+/* @media screen and (min-width: 1000px) {
   main.main-container {
     min-height: 81vh;
   }
-}
+} */
 
 /* @media (prefers-color-scheme: dark) {
   html {
