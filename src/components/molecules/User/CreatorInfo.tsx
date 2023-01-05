@@ -20,7 +20,7 @@ const AvatarPhoto = ({ src }: AvatarPhotoType) => (
 );
 
 const ChildVerticalStack = styled(Stack)({
-  width: '132px',
+  width: '130px',
   overflow: 'hidden',
   whiteSpace: 'normal',
   display: 'flex',
