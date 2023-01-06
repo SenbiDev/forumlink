@@ -8,7 +8,7 @@ type GapType = {
 
 function Gap({ width, height }: GapType) {
   return (
-    <Box data-testid='gap' sx={{ width: width, height: height }} />
+    <Box sx={{ width: width, height: height }} />
   );
 }
 

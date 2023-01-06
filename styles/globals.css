@@ -26,19 +26,3 @@ div.next-container {
     min-height: 100vh;
   }
 }
-
-/* @media screen and (min-width: 1000px) {
-  main.main-container {
-    min-height: 81vh;
-  }
-} */
-
-/* @media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
-  }
-  body {
-    color: white;
-    background: black;
-  }
-} */

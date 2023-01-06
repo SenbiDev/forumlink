@@ -3,7 +3,8 @@ import Category from './Category';
 import Gap from './Gap';
 import Icon from './Icon';
 import IconButton from './IconButton';
-import HeroImage from './Image';
+import HeroImage from './HeroImage';
+import FeatureImage from './FeatureImage';
 import Input from './Input';
 import Loading from './Loading';
 import Navigation from './Navigation';
@@ -16,6 +17,7 @@ export {
   Icon,
   IconButton,
   HeroImage,
+  FeatureImage,
   Input,
   Loading,
   Navigation,

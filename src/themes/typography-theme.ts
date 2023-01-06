@@ -113,6 +113,25 @@ const typographyTheme = createTheme({
           },
         },
         {
+          props: { variant: 'text', className: 'feature' },
+          style: {
+            fontFamily: poppinsFont.style.fontFamily,
+            fontStyle: poppinsFont.style.fontStyle,
+            fontWeight: poppinsFont.style.fontWeight = 600,
+            fontSize: 13,
+            width: 280,
+            color: '#080818',
+            [breakpointsTheme.breakpoints.up('md')]: {
+              fontSize: 16,
+              width: 480,
+            },
+            [breakpointsTheme.breakpoints.up('lg')]: {
+              fontSize: 20,
+              width: 604,
+            },
+          },
+        },
+        {
           props: { variant: 'text', className: 'hey,hello' },
           style: {
             fontFamily: poppinsFont.style.fontFamily,

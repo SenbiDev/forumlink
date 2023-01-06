@@ -5,7 +5,7 @@ import { styled, Card, CardContent, Stack, Typography, Box } from '@mui/material
 const CardComponent = styled(Card)({
   minWidth: 320,
   maxHeight: 491,
-  margin: '20px',
+  margin: '20px 20px 0 20px',
   boxShadow: '-2px 8px 28px 2px #00000040',
   backgroundColor: 'rgba(255, 255, 255, 0.45)',
   borderRadius: '8px',

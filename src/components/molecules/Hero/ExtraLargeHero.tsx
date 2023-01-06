@@ -9,7 +9,7 @@ const ParentVerticalStack = styled(Stack)({
 const CardComponent = styled(Card)({
   width: 944,
   maxHeight: 502,
-  margin: '34px 40px',
+  margin: '34px 40px 0 40px',
   boxShadow: '-2px 8px 28px 2px #00000040',
   backgroundColor: 'rgba(255, 255, 255, 0.45)',
   borderRadius: '8px',
