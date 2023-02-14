@@ -130,10 +130,10 @@ function Form({ type }: FormType) {
   const onLoginEventHandler = (event: any) => {
     event.preventDefault();
 
-    setIsEmailBlank(inputs.email?.length === 0 ? true : false);
-    setIsPasswordBlank(inputs.password?.length === 0 ? true : false);
+    setIsEmailBlank(inputs.email?.trim().length === 0 ? true : false);
+    setIsPasswordBlank(inputs.password?.trim().length === 0 ? true : false);
 
-    if (inputs.email?.length === 0 || inputs.password?.length === 0) { return; }
+    if (inputs.email?.trim().length === 0 || inputs.password?.trim().length === 0) { return; }
 
     signIn('credentials', { callbackUrl: '/threads', email: inputs.email, password: inputs.password });
     dispatch(asyncSetAuthUser);
@@ -142,11 +142,11 @@ function Form({ type }: FormType) {
   const onRegisterEventHandler = (event: any) => {
     event.preventDefault();
 
-    setIsNameBlank(inputs.name?.length === 0 ? true : false);
-    setIsEmailBlank(inputs.email?.length === 0 ? true : false);
-    setIsPasswordBlank(inputs.password?.length === 0 ? true : false);
+    setIsNameBlank(inputs.name?.trim().length === 0 ? true : false);
+    setIsEmailBlank(inputs.email?.trim().length === 0 ? true : false);
+    setIsPasswordBlank(inputs.password?.trim().length === 0 ? true : false);
 
-    if (inputs.name?.length === 0 || inputs.email?.length === 0 || inputs.password?.length === 0) {
+    if (inputs.name?.trim().length === 0 || inputs.email?.trim().length === 0 || inputs.password?.trim().length === 0) {
       return;
     } else {
       dispatch(asyncRegisterUser({ name: inputs.name, email: inputs.email, password: inputs.password }));
