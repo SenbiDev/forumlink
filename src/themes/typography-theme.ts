@@ -189,6 +189,22 @@ const typographyTheme = createTheme({
           },
         },
         {
+          props: { variant: 'content-type', className: 'auth-form-invalid' },
+          style: {
+            fontFamily: poppinsFont.style.fontFamily,
+            fontStyle: poppinsFont.style.fontStyle,
+            fontWeight: poppinsFont.style.fontWeight = 500,
+            fontSize: 8,
+            color: 'red',
+            [breakpointsTheme.breakpoints.up('md')]: {
+              fontSize: 12,
+            },
+            [breakpointsTheme.breakpoints.up('lg')]: {
+              fontSize: 14,
+            },
+          },
+        },
+        {
           props: { variant: 'text', className: 'already' },
           style: {
             fontFamily: poppinsFont.style.fontFamily,
