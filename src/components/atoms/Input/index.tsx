@@ -81,8 +81,8 @@ const InputComponent = styled(TextField)<StyledTextFieldProps>(({ theme, input, 
 });
 
 type InputType = {
-  error: boolean,
-  helperText: string,
+  error?: boolean,
+  helperText?: string,
   input: 'auth input' | 'thread input' | 'text area',
   label?: string, 
   name:  'name' | 'email' | 'password' | 'title' | 'body' | 'category' | 'comment',
